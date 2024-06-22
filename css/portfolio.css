@@ -168,14 +168,18 @@ hr{
 }
 
 @media (max-width:991px){
+  h2{
+    font-size: small;
+  }
   .resume{
     color: aliceblue;
     font-family: 'Open Sans';
     font-weight: 500;
     background-color: #000000c4;
     margin: 0 auto; 
-    width: 90%;
-    padding-bottom: -100px;
+    width: 95%;
+    padding-bottom: 20rem;
+    font-size: small;
   }
   .resume img{
     visibility: hidden;
