@@ -1,0 +1,64 @@
+/* ITO PO AY PARA SA HOME BODY AND NAVIGATION */
+body {
+    background-image: url(../pics/background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-fluid{
+    padding: 10rem;
+}
+.navbar-brand{
+    color: aliceblue;
+}
+@media (max-width:991px) {
+    body {
+        background-image: url(../pics/mobile.png);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .op{
+        margin-top: 8rem;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }   
+    .container-fluid{
+        padding: 1rem; 
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+}
+
+.navbar-toggler{
+    background-color: rgba(243, 243, 243, 0.589);
+}
+
+section{
+    margin-top: 6rem;
+    background-image: url(../pics/lightning.gif);
+}
+
+
+/* FOOTER */
+#footerpad {
+    background-color: rgba(0, 0, 0, 0.889); 
+    color: rgb(0, 0, 0); 
+    position: fixed;
+    bottom: -1.5rem; 
+    width: 100%; 
+    padding: 20px 0; 
+    z-index: 1000; 
+}
+
+#footerpad .list-inline-item a {
+    color: rgb(0, 0, 0);
+   
+}
+
+#footerpad .list-inline-item a:hover {
+    color: #f2000083; 
+
+}
